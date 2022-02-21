@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <metadata>
+        <titulo>TPC1 - Jacarés</titulo>
+        <data>21 de fevereiro de 2022</data>
+        <autor>Maria Beatriz Araújo Lacerda</autor>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </metadata>
+    <resumo>
+        Este trabalho consistia em desenvolver uma página web simples sobre um dos temas sugeridos durante a aula (Janela, Jarro, José, Japão e Jacaré).
+    </resumo>
+    <resultados>
+        <html>
+            <nome>generosJacare.html</home>
+            <nome>jacare-acu.html</home>
+            <nome>jacare-americano.html</home>
+            <nome>jacares.html</home>
+        </html>
+        <imagem>
+            <nome>acu.jpg</home>
+            <nome>alligator.jpg</home>
+            <nome>american.jpg</home>
+            <nome>caiman.jpg</home>
+            <nome>croc.jpg</home>
+            <nome>Melanosuchus.jpg</home>
+            <nome>Paleosuchus.jpg</home>
+        </imagem>
+    </resultados>
+</manifesto>
