@@ -1,0 +1,24 @@
+[
+    {
+      "title": "102 Dalmatians",
+      "year": 2000,
+      "cast": [
+        "Glenn Close",
+        "Gérard Depardieu",
+        "Alice Evans"
+      ],
+      "genres": [
+        "Comedy",
+        "Family"
+      ]
+    },
+    {
+      "title": "28 Days",
+      "year": 2000,
+      "cast": [
+        "Sandra Bullock",
+        "Viggo Mortensen"
+      ],
+      "genres": ["Drama"]
+    }
+]
