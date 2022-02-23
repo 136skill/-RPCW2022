@@ -1,11 +1,11 @@
 import json
 
-filmes = json.load(open("./teste.json",encoding="utf-8"))
+filmes = json.load(open("./cinemaATP.json",encoding="utf-8"))
 
 i=1
 c=1
 for item in filmes:
-    f = open("./html/f" + str(i) + ".html", "w")
+    f = open("./html/f" + str(i) + ".html", "w",encoding="utf-8")
     i += 1
     f.write(f'''<!DOCTYPE html>\n
 <head>
@@ -30,7 +30,7 @@ for item in filmes:
     for gen in item['genres']:
         f.write('<li>'+ gen +'</li>')
     f.write('<ol>')
-    f.write(f'''<a href= ../filmes> Voltar a página principal </a>''')
+    f.write(f'''<a href= ../filmes> Voltar à página principal </a>''')
     f.write('</div>')
     f.write('''</body>
 </html>''')
