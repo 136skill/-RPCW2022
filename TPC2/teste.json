@@ -20,5 +20,13 @@
         "Viggo Mortensen"
       ],
       "genres": ["Drama"]
+    },
+    {
+      "title": "Bird",
+      "year": 2000,
+      "cast": [
+        "Sandra Bullock"
+      ],
+      "genres": ["Drama"]
     }
 ]
