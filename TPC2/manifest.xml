@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC2: Servidor para páginas HTML</titulo>
+        <data>2022-02-28</data>
+        <autor>
+            <id>A89535</id>
+            <nome>Maria Beatriz Araújo Lacerda</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho consistia na implementação de um servidor de ficheiros em javascript.</p>
+        <p>Para cara cada registo do dataset disponibilizado pelo docente deveria ser criada uma página HTML</p>
+        <p>Foi utilizado um script em python para criar as páginas HTML para os registos.</p>
+        <p>Foi ainda sugerido a criação de uma página com todos os filmes com links para a sua informação,
+         bem como uma página com todos os atores, ordenados alfabeticamente, 
+         com a informação de quais os filmes em que participou.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>/html/index.html</url>
+            <nome>Página web principal</nome>
+        </resultado>
+        <resultado>
+            <url>/html/filmes.html</url>
+            <nome>Página com a lista de filmes</nome>
+        </resultado>
+        <resultado>
+            <url>/htmlAtores/atores.html</url>
+            <nome>Página com a lista de atores</nome>
+        </resultado>
+        <resultado>
+            <url>/html/fx.html</url>
+            <nome>Páginas html dos filmes em que x representa um filme diferente</nome>
+        </resultado>
+        <resultado>
+            <url>/htmlAtores/ax.html</url>
+            <nome>Páginas html dos atores em que x representa um ator diferente</nome>
+        </resultado>
+        <resultado>
+            <url>servidor.js</url>
+            <nome>Servidor de ficheiros</nome>
+        </resultado>
+        <resultado>
+            <url>cinemaATP.json</url>
+            <nome>Dataset</nome>
+        </resultado>
+        <resultado>
+            <url>geradorHTML.py</url>
+            <nome>Script de Python que cria as páginas HTML</nome>
+        </resultado>
+    </resultados>
+</doc>

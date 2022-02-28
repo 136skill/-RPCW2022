@@ -1,4 +1,5 @@
 import json
+from collections import OrderedDict
 
 #páginas filmes
 filmes = json.load(open("./cinemaATP.json",encoding="utf-8"))
@@ -31,7 +32,7 @@ for item in filmes:
     for gen in item['genres']:
         f.write('<li>'+ gen +'</li>')
     f.write('<ol>')
-    f.write(f'''<a href= ../filmes> Voltar à página principal </a>''')
+    f.write(f'''<a href= "http://localhost:7777/filmes"> Voltar à página principal </a>''')
     f.write('</div>')
     f.write('''</body>
 </html>''')
@@ -53,7 +54,7 @@ t.write(f'''<!DOCTYPE html>\n
 <div class="w3-container w3-margin-left">''')
 
 for titulo in filmes:
-    t.write(f'''<p><a href=./filmes/f{i}> {titulo['title']} </a></p>''')
+    t.write(f'''<p><a href="http://localhost:7777/filmes/f{i}"> {titulo['title']} </a></p>''')
     i += 1
 
 t.write('''</div>
@@ -66,15 +67,16 @@ dic = {}
 i = 1
 for obj in filmes:
     for at in obj['cast']:
-        dic.setdefault(at, []).append(obj['title'])
+        if at[0] == '(' or at[0] == '.' or at[0] == ' ' or at[0] == "'" or at[0] == " " " " or at[0] == ")" :
+            pass
+        else:
+            dic.setdefault(at, []).append(obj['title'])
 
-sort_keys = dic.items()
-new_items = sorted(sort_keys)
-
+ordenado = OrderedDict(sorted(dic.items()))
 
 i = 1
 c = 1
-for ator in dic:
+for ator in ordenado:
     f = open("./htmlAtores/a" + str(i) + ".html", "w",encoding="utf-8")
     i += 1
     f.write(f'''<!DOCTYPE html>\n
@@ -90,7 +92,7 @@ for ator in dic:
     f.write(f'<p><b>Ator:{ator}</b></p>')
     f.write('<p><b>Filmes em que participa:</b></p>')
     f.write('<ol>')
-    for cas in dic[ator]:
+    for cas in ordenado[ator]:
         f.write('<li>'+ cas +'</li>')
     f.write('</ol>')
     f.write('</div>')
@@ -111,8 +113,8 @@ t.write(f'''<!DOCTYPE html>\n
 <body>
 <div class="w3-container w3-margin-left">''')
 
-for ator in dic:
-    t.write(f'''<p><a href=./atores/a{i}> {ator} </a></p>''')
+for ator in ordenado:
+    t.write(f'''<p><a href="http://localhost:7777/atores/a{i}"> {ator} </a></p>''')
     i += 1
 
 t.write('''</div>
