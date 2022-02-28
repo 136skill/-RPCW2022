@@ -23,10 +23,6 @@
     <resultados>
         <resultado>
             <url>/html/index.html</url>
-            <nome>Página web principal</nome>
-        </resultado>
-        <resultado>
-            <url>/html/filmes.html</url>
             <nome>Página com a lista de filmes</nome>
         </resultado>
         <resultado>
