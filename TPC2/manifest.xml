@@ -14,7 +14,7 @@
     </meta>
     <resumo>
         <p>Este trabalho consistia na implementação de um servidor de ficheiros em javascript.</p>
-        <p>Para cara cada registo do dataset disponibilizado pelo docente deveria ser criada uma página HTML</p>
+        <p>Para cada registo do dataset disponibilizado pelo docente deveria ser criada uma página HTML</p>
         <p>Foi utilizado um script em python para criar as páginas HTML para os registos.</p>
         <p>Foi ainda sugerido a criação de uma página com todos os filmes com links para a sua informação,
          bem como uma página com todos os atores, ordenados alfabeticamente, 
