@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC3: File Server com REST APO </titulo>
+        <data>2022-03-15</data>
+        <autor>
+            <id>A89535</id>
+            <nome>Maria Beatriz Araújo Lacerda</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho consistia na implementação de um servidor de ficheiros em javascript,
+        com páginas HTML dinâmicas.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>db.json</url>
+            <nome>Base de dados</nome>
+        </resultado>
+        <resultado>
+            <url>escola.js</url>
+            <nome>Servidor de Ficheiros</nome>
+        </resultado>
+    </resultados>
+</doc>
