@@ -1,0 +1,14 @@
+{
+  "name": "tpc4",
+  "version": "1.0.0",
+  "description": "Lista de Tarefas",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "node servidor.js"
+  },
+  "author": "BeatrizLacerda",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

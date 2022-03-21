@@ -1,0 +1,13 @@
+{
+  "tarefas": [
+    {
+      "tarefa": "Fazer o TPC4",
+      "tipo": "Escolar",
+      "deadline": "2022-03-21",
+      "target": "Beatriz Lacerda",
+      "status": "realizar",
+      "data_criada": "2022-3-20",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC4: ToDoList</titulo>
+        <data>22/03/2022</data>
+        <autor>
+            <id>A89535</id>
+            <nome>Maria Beatriz Araújo Lacerda</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho consistia na implementação de um servidor NodeJS com a utilização de uma REST API.</p>
+        <p>O objetivo foi, numa única página HTML, apresentar uma página com um formulário para inserir/editar tarefas</p>
+        <p>Deste modo, é possível inserir novas tarefas, edita-las, marca-las como realizadas bem como elimina-las</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>servidor.js</url>
+            <texto>Serviço que responde aos pedidos do cliente e comunica com a API do json-server.</texto>
+        </resultado>
+        <resultado>
+            <url>static.js</url>
+            <texto>Serviço que responde a pedidos estáticos como requests de imagens e ficheiros .css</texto>
+        </resultado>
+        <resultado>
+            <url>tarefas.json</url>
+            <texto>Dataset</texto>
+        </resultado>
+    </resultados>
+</doc>
