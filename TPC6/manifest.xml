@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>TPC6: Gestor de Ficheiros</titulo>
+        <data>05/04/2022</data>
+        <autor>
+            <id>A89535</id>
+            <nome>Maria Beatriz Araújo Lacerda</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho tinha como objetivo a implementação de um gestor de ficheiros.</p>
+        <p>Deste modo, utilizando o MongoDB, este projeto tem a funcionalidade de dar upload de ficheiros através de um formulário e ainda de os apagar.</p>
+        <p>Adicionalmente é ainda apresentada a lista de ficheiros carregados previamente sendo apresentado a sua data, nome, descrição, tipo e tamanho.</p>
+    </resumo>
+    <resultados>
+        <resultado>
+            <url>app.js</url>
+            <texto>Aplicação Web</texto>
+        </resultado>
+        <resultado>
+            <url>controllers/ficheiro.js</url>
+            <texto>Ficheiro que permite a interação com a base de dados.</texto>
+        </resultado>
+        <resultado>
+            <url>models/ficheiro.js</url>
+            <texto>Ficheiro onde se encontram os modelos da base de dados.</texto>
+        </resultado>
+        <resultado>
+            <url>fileStore</url>
+            <texto>Diretoria onde se encontram os ficheiros carregados.</texto>
+        </resultado>
+        <resultado>
+            <url>routes/index.js</url>
+            <texto>Rotas da aplicação.</texto>
+        </resultado>
+        <resultado>
+            <url>views</url>
+            <texto>Diretoria com as views da aplicação.</texto>
+        </resultado>
+    </resultados>
+</doc>
