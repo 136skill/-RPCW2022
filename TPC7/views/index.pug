@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1.w3-green.w3-center Classes de Nível 1
+  
+  table 
+    tr
+        th Título 
+        th Código 
+    each d in dados
+        tr
+            td= d.titulo
+            td 
+              a(href="/" +d.codigo)= d.codigo
+
